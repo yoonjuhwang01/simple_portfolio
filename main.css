@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Manrope";
+
+html{
+	background-color:#fff;
+	color:#212121;
+	font-family:Manrope,Helvetica,Arial,Verdana,sans-serif;
+	font-size:14px;margin:auto;max-width:68em;padding:2em 0
+}
+a{
+	color:inherit;
+	text-decoration:underline dashed;
+	text-underline-position:under
+}
+li{
+	list-style-type:disc;
+	margin-top:.5em
+}
+ul{
+	margin:0;
+	padding-left:1.3em
+}
+#contact{
+	padding:0!important
+}
+#contact li{
+	display:inline;
+	padding-right:.2em
+}
+#footer p{
+	font-size:1em;
+	margin:2em 0 0
+}
+#name{
+	font-size:3.5em;
+	font-variant:small-caps;
+	margin-bottom:0
+}
+.summary{
+	padding-top:1em
+}
+.has-text-center{
+	text-align:center
+}
+.is-aligned-right{
+	float:right
+}
+.italic{
+	font-style:italic
+}
+.section-label{
+	border-bottom:1px solid #616161;
+	color:#424242;
+	font-size:1.6em;
+	font-style:italic;margin-bottom:0
+}
+.title{
+	font-size:1.2em;
+	font-weight:bolder;
+	padding-right:.5em
+}
+
+.nav-right{
+	align-items:flex-end
+}
+
+@media screen and (max-device-width:800px){
+	html{
+		font-size:.6em;
+		padding:1em
+	}
+}
